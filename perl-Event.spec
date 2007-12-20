@@ -12,6 +12,7 @@ Group:		Development/Perl
 Source:		http://www.cpan.org/modules/by-module/Event/%{module}-%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/%{module}
 BuildRequires:	perl-devel
+Buildroot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Fast, generic event loop
