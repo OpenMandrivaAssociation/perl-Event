@@ -1,6 +1,6 @@
 %define module	Event
 %define name	perl-%{module}
-%define version	1.10
+%define version	1.11
 %define release	%mkrel 1
 
 Name:		%{name}
