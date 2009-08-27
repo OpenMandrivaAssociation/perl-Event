@@ -1,5 +1,5 @@
 %define upstream_name	 Event
-%define upstream_version 1.11
+%define upstream_version 1.12
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -9,7 +9,7 @@ Summary:	%{upstream_name} module for perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Event/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	http://www.cpan.org/modules/by-module/Event/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}
