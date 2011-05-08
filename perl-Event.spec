@@ -1,9 +1,9 @@
 %define upstream_name	 Event
-%define upstream_version 1.13
+%define upstream_version 1.15
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:	%{upstream_name} module for perl
 License:	GPL+ or Artistic
