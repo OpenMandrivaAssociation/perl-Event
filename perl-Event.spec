@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:	2
+Release:	3
 
 Summary:	%{upstream_name} module for perl
 License:	GPL+ or Artistic
@@ -43,7 +43,7 @@ rm -rf %{buildroot}
 
 
 %changelog
-* Wed Jan 25 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.180.0-2
+* Wed Jan 25 2012 Per Ã˜yvind Karlsen <peroyvind@mandriva.org> 1.180.0-2
 + Revision: 768358
 - svn commit -m mass rebuild of perl extension against perl 5.14.2
 
@@ -59,19 +59,19 @@ rm -rf %{buildroot}
 + Revision: 672615
 - update to new version 1.15
 
-* Tue Jul 20 2010 Jérôme Quelin <jquelin@mandriva.org> 1.130.0-2mdv2011.0
+* Tue Jul 20 2010 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 1.130.0-2mdv2011.0
 + Revision: 555255
 - rebuild
 
-* Fri Nov 06 2009 Jérôme Quelin <jquelin@mandriva.org> 1.130.0-1mdv2010.1
+* Fri Nov 06 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 1.130.0-1mdv2010.1
 + Revision: 461740
 - update to 1.13
 
-* Thu Aug 27 2009 Jérôme Quelin <jquelin@mandriva.org> 1.120.0-1mdv2010.0
+* Thu Aug 27 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 1.120.0-1mdv2010.0
 + Revision: 421624
 - update to 1.12
 
-* Wed Jul 29 2009 Jérôme Quelin <jquelin@mandriva.org> 1.110.0-1mdv2010.0
+* Wed Jul 29 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 1.110.0-1mdv2010.0
 + Revision: 403160
 - rebuild using %%perl_convert_version
 
@@ -131,10 +131,10 @@ rm -rf %{buildroot}
 - 1.03
 - make tests
 
-* Mon Nov 15 2004 G�tz Waschk <waschk@linux-mandrake.com> 1.00-2mdk
+* Mon Nov 15 2004 Götz Waschk <waschk@linux-mandrake.com> 1.00-2mdk
 - rebuild for new perl
 
-* Thu Jun 03 2004 Per �yvind Karlsen <peroyvind@linux-mandrake.com> 1.00-1mdk
+* Thu Jun 03 2004 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 1.00-1mdk
 - 1.00
 - use %%makeinstall_std macro
 
