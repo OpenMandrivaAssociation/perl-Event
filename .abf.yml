@@ -1,2 +1,4 @@
+removed_sources:
+  Event-1.18.tar.gz: e384ca699bad30b00c0cf26bc1d96c11397b6a23
 sources:
-  "Event-1.18.tar.gz": e384ca699bad30b00c0cf26bc1d96c11397b6a23
+  Event-1.21.tar.gz: f73da5aa7a251ca20bb04c033ca0d09d48c0423a

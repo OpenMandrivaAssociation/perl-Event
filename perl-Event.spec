@@ -1,15 +1,15 @@
 %define upstream_name	 Event
-%define upstream_version 1.18
+%define upstream_version 1.21
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:	3
+Version:    %perl_convert_version 1.21
+Release:	1
 
 Summary:	%{upstream_name} module for perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Event/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Event/Event-1.21.tar.gz
 
 BuildRequires:	perl-devel
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}
@@ -43,7 +43,7 @@ rm -rf %{buildroot}
 
 
 %changelog
-* Wed Jan 25 2012 Per Ã˜yvind Karlsen <peroyvind@mandriva.org> 1.180.0-2
+* Wed Jan 25 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.180.0-2
 + Revision: 768358
 - svn commit -m mass rebuild of perl extension against perl 5.14.2
 
@@ -59,19 +59,19 @@ rm -rf %{buildroot}
 + Revision: 672615
 - update to new version 1.15
 
-* Tue Jul 20 2010 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 1.130.0-2mdv2011.0
+* Tue Jul 20 2010 Jérôme Quelin <jquelin@mandriva.org> 1.130.0-2mdv2011.0
 + Revision: 555255
 - rebuild
 
-* Fri Nov 06 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 1.130.0-1mdv2010.1
+* Fri Nov 06 2009 Jérôme Quelin <jquelin@mandriva.org> 1.130.0-1mdv2010.1
 + Revision: 461740
 - update to 1.13
 
-* Thu Aug 27 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 1.120.0-1mdv2010.0
+* Thu Aug 27 2009 Jérôme Quelin <jquelin@mandriva.org> 1.120.0-1mdv2010.0
 + Revision: 421624
 - update to 1.12
 
-* Wed Jul 29 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 1.110.0-1mdv2010.0
+* Wed Jul 29 2009 Jérôme Quelin <jquelin@mandriva.org> 1.110.0-1mdv2010.0
 + Revision: 403160
 - rebuild using %%perl_convert_version
 
@@ -140,4 +140,5 @@ rm -rf %{buildroot}
 
 * Tue Apr 27 2004 Stefan van der Eijk <stefan@mandrake.org> 0.88-1mdk
 - 0.88
+
 
