@@ -28,7 +28,7 @@ Fast, generic event loop
 %make_install
 
 %files
-%doc ANNOUNCE INSTALL README TODO Tutorial.pdf ChangeLog
+%doc ANNOUNCE INSTALL README TODO Tutorial.pdf
 %{perl_vendorarch}/Event*
 %{perl_vendorarch}/auto/Event
 %{_mandir}/*/*
