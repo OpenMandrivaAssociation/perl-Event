@@ -1,9 +1,9 @@
 %define upstream_name	 Event
-%define upstream_version 1.23
+%define upstream_version 1.27
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	%{upstream_name} module for perl
 License:	GPL+ or Artistic
@@ -22,15 +22,10 @@ Fast, generic event loop
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
-%make CFLAGS="%{optflags}"
-
-%check
-%make test
-
-%clean 
+%make_build CFLAGS="%{optflags}"
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc ANNOUNCE INSTALL README TODO Tutorial.pdf ChangeLog
