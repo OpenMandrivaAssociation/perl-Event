@@ -1,16 +1,13 @@
 %define debug_package %{nil}
 
-%define upstream_name	 Event
-%define upstream_version 1.28
-
-Summary:	%{upstream_name} module for perl
-Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	1
+Summary:	Event module for perl
+Name:		perl-Event
+Version:	1.28
+Release:	2
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	https://www.cpan.org/modules/by-module/%{upstream_name}/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://search.cpan.org/dist/Event
+Source0:	https://www.cpan.org/modules/by-module/Event/Event-%{version}.tar.gz
 Source100: %{name}.rpmlintrc
 
 BuildRequires:	perl-devel
@@ -27,7 +24,7 @@ BuildRequires:	perl-devel
 Fast, generic event loop
 
 %prep
-%autosetup -p1 -n %{upstream_name}-%{upstream_version}
+%autosetup -p1 -n Event-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
