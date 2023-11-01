@@ -1,9 +1,9 @@
-%define debug_package %{nil}
+%undefine _debugsource_packages
 
 Summary:	Event module for perl
 Name:		perl-Event
 Version:	1.28
-Release:	2
+Release:	3
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://search.cpan.org/dist/Event
